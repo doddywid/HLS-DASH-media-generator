@@ -24,9 +24,9 @@ Repo file structure
 
 ## Alternative method for #1
 Instead of generating media and metadata files using script, below are samples of manual command using ffmpeg
-# sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 426x240 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 240_out.m3u8
-# sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 640x360 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 360_out.m3u8
-# sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 854x480 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 480_out.m3u8
-# sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 1280x720 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 720_out.m3u8
-# sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 1920x1080 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 1080_out.m3u8
+#### # sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 426x240 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 240_out.m3u8
+#### # sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 640x360 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 360_out.m3u8
+#### # sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 854x480 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 480_out.m3u8
+#### # sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 1280x720 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 720_out.m3u8
+#### # sudo ffmpeg -i ~/Kedungsono_v2.mp4 -c:a aac -strict experimental -c:v libx264 -s 1920x1080 -aspect 16:9 -f hls -hls_list_size 1000000 -hls_time 5 1080_out.m3u8
 Credit for this goes to https://medium.com/@mayur_solanki/how-to-create-mpd-or-m3u8-video-file-from-server-using-ffmpeg-97e9e1fbf6a3
